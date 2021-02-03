@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    background-color: #EBF1F2;
+    padding: 54px;
+    width: 49.5%;
+    font-family: 'Jost', sans-serif;
+}
+
+.right-side {
+    width: 49.5%;
+}
+
+.btn {
+    padding: 12px 48px;
+    text-align: center;
+    background-color: #DCAD36;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    border-radius: 23px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid #DCAD36;
+    background-color: transparent;
+    color: black;
+}

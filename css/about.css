@@ -1,0 +1,18 @@
+.text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    white-space: pre-line;
+    text-align: center;
+    font-size: 17px;
+}
+
+.photo {
+    background-image: url(../img/photo-about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -65px;
+}
+
+
+
+

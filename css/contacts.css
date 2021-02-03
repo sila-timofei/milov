@@ -1,0 +1,103 @@
+.name {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.title-contact {
+    color: #C3ADAD;
+    margin-bottom: 20px;
+    margin-top: 38px;
+}
+
+.title-contact:first-child {
+    margin-top: 0;
+}
+
+.icon-item-contact {
+    display: flex;
+    align-items: center;
+}
+
+.soc {
+    margin-bottom: 7px;
+}
+
+.icon-contact {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.icon-vk {
+    background-image: url(../img/icons/vk.svg);
+}
+
+.icon-inst {
+    background-image: url(../img/icons/inst.svg);
+}
+
+.icon-youtube {
+    background-image: url(../img/icons/youtube.svg);
+}
+
+.icon-tik-tok {
+    background-image: url(../img/icons/tik-tok.svg);
+}
+
+.icon-sms {
+    background-image: url(../img/icons/sms.svg);
+}
+
+.item-contact {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.item-contact:hover {
+    color: #ee5531; 
+}
+
+.photo {
+    background-image: url(../img/photo-contacts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.form-contact {
+    width: 50%;
+}
+
+.form__info-users {
+    margin-bottom: 14px;
+}
+
+.form__fields {
+    padding: 12px 20px;
+    background-color: white;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form__btn {
+    width: 100%;
+    border: 2px solid  #DCAD36;
+    background-color: transparent;
+    color: black;
+}
+
+.form__btn:hover {
+    background-color: #DCAD36;
+    color: white;
+}

@@ -1,0 +1,79 @@
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    position: relative;
+    padding: 30px;
+    background-color: #F1F1F1;
+    width: 32.333333333333%;
+    margin: 0 0.5%;
+    overflow: hidden;
+}
+
+.card::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -28px;
+    width: 70px;
+    height: 30px;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+.card::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: -28px;
+    width: 70px;
+    height: 30px;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+.card__title-card {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
+    width: 218px;
+    margin-bottom: 23px;
+}
+
+.card__btn-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+}
+
+.card__img-poduct {
+    width: 224px;
+    height: 282px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 23px auto;
+}
+
+.card__img-poduct-hoodie {
+    background-image: url(../img/hoodie.png);
+}
+
+.card__img-poduct-t-shirt {
+    background-image: url(../img/Tshirt.png);
+}
+
+.card__img-poduct-cap {
+    background-image: url(../img/cap.png);
+}

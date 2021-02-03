@@ -1,0 +1,66 @@
+.header-transparent {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.fullscreen-container {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.fullscreen__photo-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+    background-image: url(../img/main-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullscreen__photo-small {
+    position: absolute;
+    top: 43%;
+    right: 7%;
+    width: 20%;
+    height: 50%;
+    background-image: url(../img/small-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pt {
+    padding-top: 181px;
+}
+
+.social__link {
+    width: 21px;
+    height: 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social__link-vk {
+    background-image: url(../img/icons/vk.svg);
+}
+
+.social__link-inst {
+    background-image: url(../img/icons/inst.svg);
+}
+
+.social__link-tik-tok {
+    background-image: url(../img/icons/tik-tok.svg);
+}
+
+.social__link-youtube {
+    background-image: url(../img/icons/youtube.svg);
+}
