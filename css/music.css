@@ -1,0 +1,14 @@
+/* mobile */
+@media screen and (max-width:640px){
+    .container-btn-bit {
+        flex-direction: column;
+    }
+
+    .btn__milov {
+        margin: 0;
+    }
+
+    .btn__bit {
+        margin-bottom: 30px;
+    }
+}

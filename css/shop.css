@@ -78,3 +78,46 @@
 .card__img-poduct-cap {
     background-image: url(../img/cap.png);
 }
+
+
+
+/* mobile + tablet */
+@media screen and (max-width:940px){
+  
+	.desktop{display:none!important;}
+
+	.scrollbox{overflow:auto;overflow:-moz-scrollbars-none!important;}
+      .scrollbox::-webkit-scrollbar{display:none;}
+
+    .card {
+        width: 49%;
+        margin-bottom: 1%;
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:640px){
+    .card {
+        width: 100%;
+    }
+
+    .card__btn-price {
+        justify-content: center;
+    }
+
+    .card__btn {
+        margin-right: 15px;
+    }
+
+    .card::before {
+        display: none;
+    }
+
+    .card::after {
+        display: none;
+    }
+}

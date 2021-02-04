@@ -254,22 +254,3 @@ img{display: block;width:100%;max-width:100%;}
         top: 0;
     }
 }
-
-/* mobile */
-@media screen and (max-width:640px){
-}
-
-/* tablet + desktop */
-@media screen and (min-width:641px){
-}  
-
-/* tablet */    
-    
-@media screen and (min-width:641px) and (max-width:940px){
-}     
-    
-/* desktop */    
-@media screen and (min-width:941px){
-
-    .mobile{display:none!important;}
-}
