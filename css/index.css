@@ -37,9 +37,33 @@
     background-size: cover;
 }
 
-.pt {
-    padding-top: 181px;
-    position: relative;
+.container-text {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-title {
+    font-family: 'FE Hero';
+    font-size: 71px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Cormorant Garamond';
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    margin-bottom: 80px;
+}
+
+.social-icon {
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
 }
 
 .social__link {
@@ -48,6 +72,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+    margin-right: 8px;
+}
+
+.social__link:last-child {
+    margin-right: 0;
 }
 
 .social__link-vk {

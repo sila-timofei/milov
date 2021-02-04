@@ -34,3 +34,33 @@
     background-color: transparent;
     color: black;
 }
+
+.container-btn-bit {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.btn__milov {
+    position: relative;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.btn__milov::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    transition: 0.7s;
+}
+
+.btn__milov:hover::after {
+    width: 100%;
+}
