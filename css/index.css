@@ -56,6 +56,7 @@
     font-size: 30px;
     letter-spacing: 0.03em;
     margin-bottom: 80px;
+    white-space: pre-line;
 }
 
 .social-icon {
@@ -124,19 +125,25 @@
     .fullscreen__photo-small {
         display: none;
     }
-}
 
-/* tablet + desktop */
-@media screen and (min-width:641px){
+    .subtitle {
+        white-space: normal;
+    }
 }  
-
-/* tablet */    
-    
-@media screen and (min-width:641px) and (max-width:940px){
-}     
     
 /* desktop */    
 @media screen and (min-width:941px){
 
     .mobile{display:none!important;}
+}
+
+@media screen and (max-width:400px) {
+    .container-text, .social-icon {
+        left: 30px;
+        right: 15px;
+    }
+
+    .main-title {
+        font-size: 60px;
+    }
 }
