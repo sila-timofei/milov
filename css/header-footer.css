@@ -273,3 +273,15 @@ img{display: block;width:100%;max-width:100%;}
 
     .mobile{display:none!important;}
 }
+
+@media screen and (max-width:400px) {
+    .btn-menu {
+        right: 30px;
+        bottom: 30px;
+    }
+
+    .social-icon {
+        position: fixed;
+        bottom: 38.5px;
+    }
+}

@@ -153,6 +153,7 @@
     }
 
     .social-icon {
+        position: fixed;
         bottom: 38.5px;
     }
 }
