@@ -1,14 +1,11 @@
 window.addEventListener('DOMContentLoaded', function() {
     var btnMenu = document.querySelector('.btn-menu'),
         menu = document.querySelector('.nav-links'),
-        logo = document.querySelector('.logo'),
-        closeMenu = document.querySelectorAll('.btn-menu__line-close');
+        lineMenu = document.querySelectorAll('.btn-menu__line-animation');
 
         btnMenu.addEventListener('click', () => {
             menu.classList.toggle('show-menu');
-            logo.classList.toggle('white-logo');
-            closeMenu.forEach(i => {
-                i.classList.toggle('show-close-menu');
-            });
+            lineMenu[0].classList.toggle('btn-menu__one-line');
+            lineMenu[1].classList.toggle('btn-menu__one-line1');
         });
 });
