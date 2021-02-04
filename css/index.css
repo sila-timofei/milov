@@ -146,4 +146,13 @@
     .main-title {
         font-size: 60px;
     }
+
+    .btn-menu {
+        right: 30px;
+        bottom: 30px;
+    }
+
+    .social-icon {
+        bottom: 38.5px;
+    }
 }
