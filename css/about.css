@@ -12,3 +12,11 @@
     background-size: cover;
     background-position: center -65px;
 }
+
+
+
+@media screen and (max-width:640px){
+    .photo {
+        background-position: top;
+    }
+}

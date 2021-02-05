@@ -103,6 +103,7 @@
 @media screen and (max-width:640px){
     .card {
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .card__btn-price {
@@ -119,5 +120,16 @@
 
     .card::after {
         display: none;
+    }
+}
+
+@media screen and (max-width:400px){
+    .card__btn-price {
+        flex-direction: column;
+    }
+
+    .card__btn {
+        margin: 0;
+        margin-bottom: 15px;
     }
 }
