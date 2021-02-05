@@ -1,22 +1,23 @@
 .text {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    white-space: pre-line;
+    line-height: 28px;
     text-align: center;
     font-size: 17px;
+    max-height: 750px;
+    overflow-y: auto;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.light {
+    font-weight: 300;
 }
 
 .photo {
     background-image: url(../img/photo-about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -65px;
-}
-
-
-
-@media screen and (max-width:640px){
-    .photo {
-        background-position: top;
-    }
 }
