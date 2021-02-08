@@ -12,6 +12,7 @@
     width: 32.333333333333%;
     margin: 0 0.5%;
     overflow: hidden;
+    visibility: hidden;
 }
 
 .card::before {

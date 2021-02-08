@@ -8,10 +8,12 @@
     padding: 54px;
     width: 49.5%;
     font-family: 'Jost', sans-serif;
+    visibility: hidden;
 }
 
 .right-side {
     width: 49.5%;
+    visibility: hidden;
 }
 
 .btn {
@@ -48,6 +50,7 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-left: 25px;
+    visibility: hidden;
 }
 
 .btn__milov::after {

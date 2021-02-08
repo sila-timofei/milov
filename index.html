@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -44,16 +45,16 @@
 
     <div class="fullscreen-container">
         <div class="fullscreen">
-            <div class="fullscreen__photo-main"></div>
-            <div class="fullscreen__photo-small"></div>
+            <div class="fullscreen__photo-main wow fadeIn"></div>
+            <div class="fullscreen__photo-small wow fadeInRight"></div>
 
             <div class="container-text">
-                <h1 class="main-title">milov konstantin</h1>
-                <h2 class="subtitle">Автор песен и музыки, певец и
+                <h1 class="main-title wow fadeInUp">milov konstantin</h1>
+                <h2 class="subtitle wow fadeInUp">Автор песен и музыки, певец и
                     исполнитель</h2>
             </div>
 
-            <div class="social-icon">
+            <div class="social-icon wow fadeInUp">
                 <a href="https://vk.com/konstantin.milov" target="_blank" class="social__link social__link-vk"></a>
                 <a href="https://www.instagram.com/___milov___/" target="_blank" class="social__link social__link-inst"></a>
                 <a href="https://www.tiktok.com/@milov_" target="_blank" class="social__link social__link-tik-tok"></a>
@@ -62,6 +63,10 @@
         </div>
     </div>
 
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>

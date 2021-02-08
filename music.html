@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/music.css">
@@ -43,34 +44,40 @@
 
     <main class="main-wrapper">
         <section class="container container-music">
-            <div id="vk_playlist_-188678254_1"></div>
-            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
-            <script type="text/javascript">
-            (function() {
-                VK.Widgets.Playlist("vk_playlist_-188678254_1", -188678254, 1,'d94485c21e66ff8aa7');
-            }());
-            </script>
+            <div class="wow fadeIn">
+                <div id="vk_playlist_-188678254_1"></div>
+                <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+                <script type="text/javascript">
+                (function() {
+                    VK.Widgets.Playlist("vk_playlist_-188678254_1", -188678254, 1,'d94485c21e66ff8aa7');
+                }());
+                </script>
+            </div>
 
             <div class="container-btn-bit">
-                <a href="https://vk.com/milov_music" target="_blank" class="btn btn__bit">заказать бит</a>
-                <a href="https://vk.com/milov_songs" target="_blank" class="btn__milov">официальная группа вк</a>
+                <a href="https://vk.com/milov_music" target="_blank" class="btn btn__bit wow fadeInUp">заказать бит</a>
+                <a href="https://vk.com/milov_songs" target="_blank" class="btn__milov wow fadeInUp">официальная группа вк</a>
             </div>
         </section>
     </main>
 
     <footer class="footer container">
-        <div class="social">
+        <div class="social wow fadeInUp">
             <a href="https://www.instagram.com/___milov___/" target="_blank" class="social__item">instagram</a>
             <a href="https://vk.com/konstantin.milov" target="_blank" class="social__item">vkontacte</a>
             <a href="https://www.tiktok.com/@milov_" target="_blank" class="social__item">tik-tok</a>
             <a href="https://www.youtube.com/channel/UCw3u7vF_srZGc-854PUqZdQ" target="_blank" class="social__item">youtube</a>
         </div>
 
-        <div class="site-created">site created — <a href="https://vk.com/design_by_sila" target="_blank">sila</a></div>
+        <div class="site-created wow fadeInUp">site created — <a href="https://vk.com/design_by_sila" target="_blank">sila</a></div>
 
-        <div class="copyter">© 2020 MILOV All rights reserved</div>
+        <div class="copyter wow fadeInUp">© 2020 MILOV All rights reserved</div>
     </footer>
 
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>

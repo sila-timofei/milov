@@ -166,6 +166,7 @@ img{display: block;width:100%;max-width:100%;}
 
 .social {
     margin-bottom: 30px;
+    visibility: hidden;
 }
 
 .social__item {
@@ -192,6 +193,7 @@ img{display: block;width:100%;max-width:100%;}
     text-transform: uppercase;
     color: rgb(175, 154, 154);
     margin-bottom: 30px;
+    visibility: hidden;
 }
 
 .site-created a {
@@ -207,6 +209,7 @@ img{display: block;width:100%;max-width:100%;}
     font-weight: 300;
     font-size: 14px;
     color: rgb(175, 154, 154);
+    visibility: hidden;
 }
 
 
