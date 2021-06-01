@@ -24,7 +24,7 @@ if (!$name || !$phone) {
 
 $letter = (new Message())
     ->setFrom('silatimofei@yandex.ru')
-    ->addTo('CONSTANTIN.MILOV@YANDEX.RU')
+    ->addTo('constantin.milov@yandex.ru')
     ->setSubject('Заявка с сайта')
     ->setBody(<<<MAIL
                 Пришла новая заявка!
@@ -39,5 +39,5 @@ $letter = (new Message())
     'secure' => 'ssl'
 ]))->send($letter);
 
-header('Location: ../thank.html', true, 302);
+header('Location: ../thanks.html', true, 302);
 exit();
